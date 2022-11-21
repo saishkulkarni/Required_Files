@@ -1,0 +1,12 @@
+Basic Git Commands
+----------------
+1. $ git init -b main 					// create a local repository
+2. $ git add . 			 			// add files to stage area
+3. $ git commit -m "First commit" 			// add files to local repository
+4. $ git remote add origin  <REMOTE_URL>        // add global repository to git
+5. $ git remote -v                              // to view global repository
+6. $ git push origin main                       // to push code from local to global
+7. $ git checkout saish                         // to propogate between the branches
+8. $ git checkout -b "saish"				// --||--
+9. $ git remote set-url origin new.git.url/here // to change git global repository
+10.$ git pull "link of global repository"       // to copy from global to local
